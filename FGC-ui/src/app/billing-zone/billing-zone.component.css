@@ -1,0 +1,387 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:700'); */
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+nav{
+    background-color: #8bc34a;
+}
+
+nav span.active {
+    border-bottom: 2px solid red;
+}
+
+.nav-wrapper li span {
+    background: #fff;
+    color: #8bc34a;
+    /* border-radius: 50px; */
+    padding: 5px 20px;
+    font-size: 11px;
+}
+
+nav ul a {
+    padding: 0 5px;
+}
+
+.brand-logo > img {
+    margin-top: 7px;
+}
+
+.container {
+    width: 90% !important;
+}
+
+form .row {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.costCenter {
+    background: #fff;
+    margin-top: 50px;
+}
+
+.costCenter h6 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    /* font-size: 17px; */
+    letter-spacing: 3px;
+    /* margin-bottom: 20px; */
+    font-style: 'Roboto', sans-serif;
+}
+
+.costCenter form .row:first-child {
+    padding: 60px 50px 20px 50px;
+}
+
+.input-field label {
+    font-size: 0.90rem;
+}
+
+.add-new-contract .card-panel {
+    margin-top: 30px;
+    padding-top: 0;
+}
+
+.add-new-contract .card-panel .formHeading {
+    margin-right: -24px;
+    margin-left: -24px;
+    position: relative;
+}
+
+#slider {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+}
+
+.slide-in {
+    animation: slide-in 0.3s forwards;
+    -webkit-animation: slide-in 0.3s forwards;
+}
+
+.slide-out {
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+}
+    
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}
+    
+@keyframes slide-out {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+@-webkit-keyframes slide-out {
+    0% { -webkit-transform: translateX(0%); }
+    100% { -webkit-transform: translateX(-100%); }
+}
+
+#sliderContractList {
+    animation-delay: 2s;
+}
+
+.formHeading h6 {
+    text-align: center;
+    color: #fff;
+    /* background-color: #00ced1; */
+    background-color: #0C80DA;
+    padding: 10px;
+}
+
+.formHeading a {
+    position: absolute;
+    right: -19px;
+    background-color: #8bc34a;
+    top: 56px;
+}
+
+form .audit {
+    margin-top: 23px;
+}
+
+form .billingMode {
+    background-color: #8bc34a;
+    color: #fff;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+form .billingMode h6 {
+    padding-left: 19px;
+}
+
+.modelBased {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+form .save input {
+    background-color: #8bc34a !important;
+    color: #fff !important;
+}
+
+.cabSave {
+    padding-top: 8px;
+}
+
+.tab1 {
+    background-color: #f1f1f1;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.tab1 h6 {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    color: #a6a6a6;
+}
+
+.tab1 .kms {
+    padding-top: 32px;
+}
+
+.tab1 .kms span {
+    margin-right: 20px;
+}
+
+.tab1 .kms span label {
+    font-size: 12px;
+}
+
+.packageCost > i {
+    background-color: #fff;
+    color: #F44336;
+    /* margin-top: 35px; */
+    cursor: pointer;
+}
+
+.label1 {
+    font-size: 0.90rem;
+    color: #9e9e9e;
+    margin-bottom: 10px;
+}
+
+.emptyLeg span {
+    margin-right: 20px;
+}
+
+.emptyLeg label {
+    font-size: 11px;
+}
+
+#view {
+    cursor: pointer;
+}
+
+#edit {
+    cursor: pointer;
+}
+
+.alert {
+    color: red;
+}
+
+select {
+    display: initial !important;
+    margin-bottom: 35px;
+    border: 1px solid #0C80DA;
+}
+
+.select label {
+    color: #fff;
+    border: 1px solid #0C80DA;
+    background: #0C80DA;
+    padding: 2px 11px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 8px;
+}
+
+.border input {
+    border: 1px solid #0C80DA;
+    border-radius: 3px;
+    padding-left: 8px;
+    height: 2.3rem;
+}
+
+.modal-content {
+    padding-top: 10px;
+}
+
+.modal-content h6 {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #495D6E; 
+    margin-bottom: 40px;
+}
+
+.myclass .selected-list .c-btn {
+    box-shadow: none !important;
+}
+
+.slabArray {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px !important;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box1 {
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    margin-bottom: 10px !important;
+    padding: 8px;
+}
+
+.box1 h6 {
+    text-align: center;
+    color: #1454a8;
+}
+
+.select1 label {
+    top: -20px;
+    color: #8bc34a;
+}
+
+.newSlab {
+    position: relative;
+    border: 3px solid #fff;
+}
+
+.newSlab > i {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    background: #fff;
+    color: red;
+    border-bottom-left-radius: 22px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.costCenter .red {
+    position: absolute !important;
+    border: 4px solid #dbdbdb;
+    background: #fff !important;
+    right: -27px;
+    top: 61px;
+    box-shadow: none;
+}
+
+.costCenter .red > i {
+    width: auto !important;
+    line-height: 49px !important;
+    color: red !important;
+}
+
+
+.content-border {
+    padding: 0 0 1rem 0 !important;
+    height: calc(100vh - 230px);
+    overflow-y: auto;
+}
+
+.list-header {
+    position: fixed;
+    margin-top: 0;
+    background-color: rgba(93, 170, 3, 0.5);
+    border-radius: 0;
+    color: #fff;
+}
+
+.scroll {
+    padding-top: 30px;
+}
+
+.list-header .inside > span {
+    display: inline-block;
+    width: 170px;
+}
+
+.billingDetails .card-panel span {
+    display: inline-block;
+    width: 170px;
+    font-size: 12px;
+    /* color: #a6a6a6; */
+    color: #495D6E !important; 
+}
+
+.billingDetails .card-panel span i {
+    margin-right: 15px;
+    color: #495D6E !important;
+}
+
+.billingDetails .card-panel span #disabled {
+    color: red !important;
+}
+
+.billingDetails .card-panel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    margin-bottom: 0.1rem;
+    cursor: pointer;
+    /* background: #8bc34a; */
+    background: #fff;
+    color: #495D6E !important;
+    margin-left: -11px;
+    margin-right: -11px;
+}
+
+.billingDetails .card-panel span {
+    color: #fff;
+}
+
+.billingDetails .card-panel:hover span i {
+    color: #fff;
+}
+
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('http://www.downgraf.com/wp-content/uploads/2014/09/01-progress.gif?e44397') 50% 50% no-repeat #fff;
+}
+
+
+
+
+
